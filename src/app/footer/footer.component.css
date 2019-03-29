@@ -2,26 +2,35 @@
   background-color: #e10a0a;
   border-top: 5px solid #b01f24;
   height: 17em;
+
 }
 
 .link-container {
   width: 50%;
   border: 3px solid lightblue;
   height: 100%;
-  margin-left: 20em;
+  margin-left: 24em;
+  display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  max-height: 2274px;
+
 }
 
 a {
   text-decoration: none;
   color: white;
   font-family: serif;
+  padding-top: 1em;
+  font-size: 14px;
 }
 
 .footer-links-left {
   display: flex;
   flex-direction: column;
-  
+  margin-right: 12em;
+
+
 }
 .footer-links-right {
   display: flex;
