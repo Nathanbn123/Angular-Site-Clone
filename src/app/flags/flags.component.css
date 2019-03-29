@@ -1,6 +1,7 @@
 .landing-container {
   border: 1px solid red;
   height: 48em;
+  background-image: url("https://res.cloudinary.com/www-virgin-com/w_auto,c_scale,dpr_auto,f_auto,fl_lossy,q_auto/virgin-com-prod/profiles/site_installer/themes/custom/virgin/images/bg-main.png?1553521991");
 }
 
 .landing-title {
