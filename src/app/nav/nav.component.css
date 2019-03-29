@@ -1,0 +1,13 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7em;
+
+}
+
+.nav-icons {
+  width: 25em;
+  background-color: black;
+
+
+}
