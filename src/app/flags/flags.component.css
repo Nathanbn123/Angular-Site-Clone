@@ -3,6 +3,20 @@
   height: 30em;
 }
 
+.landing-title {
+  background-color:rgba(0,0,0,0.5);
+  color: white;
+  width: 35em;
+  max-width: 680px;
+  height: 6em;
+  text-align: center;
+  margin: 0 15%;
+  padding: 40px;
+  font-size: 29px;
+  font-family: sans-serif;
+}
+
+
 .flag-container {
   background-color: white;
   border: 1px solid black;
