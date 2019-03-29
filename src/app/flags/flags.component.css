@@ -1,19 +1,22 @@
 .landing-container {
   border: 1px solid red;
-  height: 30em;
+  height: 45em;
 }
 
 .landing-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color:rgba(0,0,0,0.5);
   color: white;
-  width: 35em;
+  width: 32em;
   max-width: 680px;
-  height: 6em;
+  height: 4em;
   text-align: center;
   margin: 0 15%;
   padding: 40px;
   font-size: 29px;
-  font-family: sans-serif;
+  font-family: serif;
 }
 
 

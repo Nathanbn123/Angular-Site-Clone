@@ -1,6 +1,30 @@
 .foot-container {
-  background-color: red;
-  border-top: 5px solid crimson;
-  height: 15em;
+  background-color: #e10a0a;
+  border-top: 5px solid #b01f24;
+  height: 17em;
+}
+
+.link-container {
+  width: 50%;
+  border: 3px solid lightblue;
+  height: 100%;
+  margin-left: 20em;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: serif;
+}
+
+.footer-links-left {
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-links-right {
+  display: flex;
+  flex-direction: column;
 
 }
