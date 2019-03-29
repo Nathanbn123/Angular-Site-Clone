@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { Flag } from '../models/flag.model';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
