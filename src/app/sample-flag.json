@@ -1,0 +1,13 @@
+{ "Flags": [{
+    "title": " USA",
+    "URL": "https://res.cloudinary.com/www-virgin-com/w_auto,c_scale,dpr_auto,f_auto,fl_lossy,q_auto/virgin-com-prod/sites/virgin.com/files/styles/sign_post__336x336_/public/conent_blocks/us_0.png?itok=e-lfafAH"
+
+    }, {
+    "title": "Mexico",
+    "URL": "https://res.cloudinary.com/www-virgin-com/w_auto,c_scale,dpr_auto,f_auto,fl_lossy,q_auto/virgin-com-prod/sites/virgin.com/files/styles/sign_post__336x336_/public/conent_blocks/mexico.png?itok=OBwlCzfF"
+      }, {
+    "title": "UK",
+    "URL": "https://res.cloudinary.com/www-virgin-com/w_auto,c_scale,dpr_auto,f_auto,fl_lossy,q_auto/virgin-com-prod/sites/virgin.com/files/styles/sign_post__336x336_/public/conent_blocks/gb_0.png?itok=M5aBzsth"
+
+    } ]
+}
