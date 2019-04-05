@@ -7,16 +7,19 @@
 
 ## Description
 
-_This application provides the user with the opportunity to see a recreation of a popular cell phone service copmany site!_
+_This application provides the user with the opportunity to see a recreation of a popular cell phone service company site!_
 
 ## Specs
 
+## Features
 
+### _Completed_
+*   _Application will generate a number info cards for corresponding data entries_
 
-## An image of the original site!
+### _Planned Features_
+* _Application will display a number of info cards that will display information about the countries that are served by the company using collected data_
+* _Apllication nav-bar will have functional drop-down menus when the user hovers over a nav option_
 
-
-## An image of my clone!
 
 
 
