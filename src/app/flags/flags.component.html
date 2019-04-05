@@ -3,12 +3,12 @@
     <h1>Visit Virgin Mobile Around the World</h1>
   </div>
 
+  <div *ngFor="let flag of flags | async"  class="panel panel-default">
     <div class="flag-container">
       <div class="field-item">
         <img src="#" alt="image of flag">
         <h3>sample text</h3>
       </div>
-      <div *ngFor="let flag of flags | async"  class="panel panel-default">
   <div class="panel-body">
     <h3><em>{{flags.title}}</em> by {{flags.URL}}</h3>
   </div>
