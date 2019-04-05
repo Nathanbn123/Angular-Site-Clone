@@ -7,12 +7,12 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
   styleUrls: ['./flags.component.css']
 })
 export class FlagsComponent {
-  albums: FirebaseListObservable<any[]>;
+  flags: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
   this.flags = database.list('Flags');
 }
 
-getFlags(){
+ ngOnInit() {
   console.log(this.flags)
   return this.flags;
 }

@@ -4,6 +4,14 @@
   background-image: url("https://res.cloudinary.com/www-virgin-com/w_auto,c_scale,dpr_auto,f_auto,fl_lossy,q_auto/virgin-com-prod/profiles/site_installer/themes/custom/virgin/images/bg-main.png?1553521991");
 }
 
+
+.display-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4em;
+}
+
+
 .landing-title {
   display: flex;
   justify-content: center;

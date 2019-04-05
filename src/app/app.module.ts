@@ -4,6 +4,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
+import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FlagsComponent } from './flags/flags.component';
@@ -28,8 +29,7 @@ export const firebaseConfig = {
   ],
   imports: [
     BrowserModule,
-
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
   ],
   providers: [],
