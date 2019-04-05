@@ -27,10 +27,8 @@ export const firebaseConfig = {
     FooterComponent
   ],
   imports: [
-    BrowserModule
-    FormsModule,
-    HttpModule,
-    routing,
+    BrowserModule,
+
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],

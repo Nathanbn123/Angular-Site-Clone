@@ -9,10 +9,13 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 export class FlagsComponent {
   albums: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
-  this.Flags = database.list('Flags');
+  this.flags = database.list('Flags');
 }
 
-
+getFlags(){
+  console.log(this.flags)
+  return this.flags;
+}
 
 
 }
